@@ -141,11 +141,10 @@ if (!phoneNumbersecond.value || !phoneNumberthird.value) {
   const phoneNumber = `${phoneNumberfirst.value}-${phoneNumbersecond.value}-${phoneNumberthird.value}`;
 
   try {
-<<<<<<< HEAD:teamprojectvue/src/views/JoinView.vue
-    const phoneResponse = await axios.get(`http://192.168.0.5:8080/sign/checkphone?phoneNumber=${phoneNumber}`);
-=======
+
+
     const phoneResponse = await axios.get(`http://192.168.0.103:8080/sign/checkphone?phoneNumber=${phoneNumber}`);
->>>>>>> 75ed138c90830115b3902bbc544c506159be1a55:teamprojectvue/src/views/guest/JoinView.vue
+
     console.log(phoneNumber);
     console.log(phoneResponse);
 
@@ -172,11 +171,9 @@ const checkid = async () => {
   }
 
   try {
-<<<<<<< HEAD:teamprojectvue/src/views/JoinView.vue
-    const idResponse = await axios.get(`http://192.168.0.5:8080/sign/checkid?userid=${userid.value}`);
-=======
+
     const idResponse = await axios.get(`http://192.168.0.103:8080/sign/checkid?userid=${userid.value}`);
->>>>>>> 75ed138c90830115b3902bbc544c506159be1a55:teamprojectvue/src/views/guest/JoinView.vue
+
 
     if (idResponse.data == false) {
       idError.value = '이미 사용 중인 아이디입니다.'
@@ -205,11 +202,10 @@ const joinuser = async () => {
 console.log(data);
 
   try {
-<<<<<<< HEAD:teamprojectvue/src/views/JoinView.vue
-    const res = await axios.post('http://192.168.0.5:8080/sign/signin', data)
-=======
+
+
     const res = await axios.post('http://192.168.0.103:8080/sign/signin', data)
->>>>>>> 75ed138c90830115b3902bbc544c506159be1a55:teamprojectvue/src/views/guest/JoinView.vue
+
     console.log(res)
     router.push({ name: 'loginview' })
   } catch (e) {

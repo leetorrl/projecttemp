@@ -1,10 +1,4 @@
 <template>
-<<<<<<< HEAD
-  <div>
-      <div>
-<h1 class=" text-blue-800 text-2xl font-bold mb-3">관리자 가입 허가</h1>
-<hr class="border-2 border-blue-800 ">
-=======
     <!-- 드랍박스 여기 -->
   <div class="px-52">
     <DropBox />
@@ -29,59 +23,9 @@
             More components on <b>Material Tailwind</b>.
           </a>
         </div>
->>>>>>> 75ed138c90830115b3902bbc544c506159be1a55
-
-
-<<<<<<< HEAD
-
-<div>
-
-<div class=" m-auto" style="width: 1500px;">
 
 
 
-<div class="flex justify-center mt-16">
-
-
- 
-
-<div class="w-96 bg border border-black rounded"><input  type="search" name="" id="" placeholder="강의명 또는 이름검색" 
-  class="w-11/12 px-3 pt-1 pb-1 " required><span class=" ml-2 cursor-pointer">＠</span></div>
-</div>
-<br>
-<div class="">
-  <div class="ml-24">
-  <input type="checkbox" name="" id="" class="inline-block "><h1 class="inline-block ml-7">전체선택</h1> 
-  <!-- 위치수정 필요 -->
-</div>
-
-
-
-
-
-  <!-- 리스트 항목 -->
-  <!-- <ul v-for="item in arr" :key="item.id" class="w-full  flex justify-center "> -->
-      <!-- <input type="checkbox" name="" id="" class="inline-block mr-7">
-      <li class="inline-block text-center w-1/6 border-t border-b border-black bg-[#eee]"><p class="mt-1">이름</p></li>
-      <li class="inline-block text-center w-3/6  border-t border-b border-l border-black" ><p class="mt-1">강좌이름</p></li>
-      <li class="inline-block w-1/6 text-center  border-t border-b  border-black"  >
-          <button class=" border border-blue-800 bg-blue-800 text-white font-bold m-1">가입승인</button>
-      </li> -->
-
-       <ul class="w-full  flex justify-center ">
-      <input type="checkbox" name="" id="" class="inline-block mr-7">
-      <li class="inline-block text-center w-1/6 border-t border-b border-black bg-[#eee]"><p class="mt-1">이름</p></li>
-      <li class="inline-block text-center w-3/6  border-t border-b border-l border-black" ><p class="mt-1">강좌이름</p></li>
-      <li class="inline-block w-1/6 text-center  border-t border-b  border-black"  >
-          <button class=" border border-blue-800 bg-blue-800 text-white font-bold m-1">가입승인</button>
-      </li>
-  </ul>
-
-
-
-
-</div>
-=======
           <div class="relative mt-2">
             <div class="absolute left-0 flex items-center pl-3 top-2">
               <button
@@ -145,7 +89,7 @@
             />
           </div>
         </div>
->>>>>>> 75ed138c90830115b3902bbc544c506159be1a55
+
       </div>
       <div class="flex justify-center">
           <ul class="flex space-x-2">
@@ -163,8 +107,7 @@
       </div>
   </div>   
   
-  </div>
-  </div>
+
 </template>
 
 <script setup>

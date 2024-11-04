@@ -59,11 +59,10 @@ const LoginSequence = async () => {
     // 백엔드로 보낼 데이터
 
     const response = await axios.post(
-<<<<<<< HEAD:teamprojectvue/src/views/LoginView.vue
+
       `http://192.168.103:8080/sign/login`, data
-=======
-      `http://192.168.0.103:8080/sign/login`, data
->>>>>>> 75ed138c90830115b3902bbc544c506159be1a55:teamprojectvue/src/views/guest/LoginView.vue
+
+
     )
     if (response) {
       const token = response.data
